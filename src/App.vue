@@ -52,7 +52,7 @@ export default {
         console.log("login", response);
         self.id = response.authResponse.userID;
 
-        FB.api("/me?fields=id,name,email,cover,birthday,link,picture", function(
+        FB.api("/me?fields=id,name,email,cover,birthday,link,picture,ids_for_pages", function(
           info
         ) {
           console.log("/me", info);
@@ -66,9 +66,9 @@ export default {
               // Insert your code here
             }
           );
-          FB.api("/" + info.id + "/ids_for_pages", function(response) {
-            console.log("ids_for_pages", response);
-          });
+          // FB.api("/" + info.id + "/ids_for_pages/", function(response) {
+          //   console.log("ids_for_pages", response);
+          // });
         });
       });
     };
