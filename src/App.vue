@@ -5,7 +5,7 @@
     <span>id:{{id}}</span>
     <div>
       <div id="fb-root"></div>
-      <div class="fb-customerchat" attribution="setup_tool"  page_id="146864302897352"></div>
+      <div class="fb-customerchat" attribution="setup_tool"  page_id="285763282051548"></div>
     
     </div>
     <router-view/>
