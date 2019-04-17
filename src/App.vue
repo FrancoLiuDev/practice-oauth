@@ -5,7 +5,7 @@
     <span>id:{{id}}</span>
     <div>
       <div id="fb-root"></div>
-      <div class="fb-customerchat" attribution="setup_tool" page_id="146864302897352"></div>
+      <div class="fb-customerchat" attribution="setup_tool" page_id="652002691936819"></div>
     </div>
     <router-view/>
   </div>
@@ -24,7 +24,7 @@ export default {
     let self = this;
     window.fbAsyncInit = function() {
       FB.init({
-        appId: "285763282051548",
+        appId: "146864302897352",
         status: true,
         xfbml: true,
         cookie: true,
